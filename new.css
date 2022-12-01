@@ -1,0 +1,138 @@
+.class{
+    display: flex;
+    margin-left: 25px;
+}
+.margin{
+    margin-left: 10px;
+    font-style: none;
+}
+.img{
+    height: 150px;
+    width: 90px;
+}
+.divone{
+    width: 500px;
+    margin: 20px;
+    display: flex;
+}
+.mainimg{
+    height: 300px;
+    width: 600px;
+}
+.border{
+    background-color: black;
+    color: silver;
+    width: 400px;
+}
+h3{
+    color: gold;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+h4{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: silver;
+}
+button{
+    color: white;
+    background-color: lightcoral;
+    border-color: lightcoral;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+nav{
+    margin-top: 35px;
+}
+.classone{
+    display: flex;
+    justify-content: space-between;   
+    margin-left: 20px;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Inter;
+    
+}
+.divtwo{
+    width: 300px;
+}
+h2{
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 20px;    
+}
+.border p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.one{
+    color: silver;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.two{
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.three{
+    color: gray;
+    margin-left: 10px;
+}
+#logo{
+    object-fit: none;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+@media(max-width: 700px){
+    .class{
+        display: block;
+        
+    }
+    .divone{
+        width: 500px;
+        margin: 20px;
+        display: flex;
+    }
+    .classone{
+        display: flex;
+        justify-content: space-between;   
+        margin-left: 20px;
+    }
+    .divone{
+        width: 300px;
+    }
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .mobile-img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .border{
+        background-color: black;
+        color: silver;
+        width: 300px;
+    }
+    
+}
+
+
